@@ -1,0 +1,8 @@
+﻿<Window x:Class="DevMachineSetupApp.WebBrowser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WebBrowser" Height="600" Width="800">
+    <Grid>
+        <WebBrowser HorizontalAlignment="Left" VerticalAlignment="Top" Source="https://github.com/"/>
+    </Grid>
+</Window>

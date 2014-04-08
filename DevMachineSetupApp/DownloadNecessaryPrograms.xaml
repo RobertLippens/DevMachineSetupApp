@@ -1,0 +1,18 @@
+﻿<Page x:Class="DevMachineSetupApp.DownloadNecessaryPrograms"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300"
+	Title="DownloadNecessaryPrograms" Width="525">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Step 3: Download The Necessary Files" VerticalAlignment="Top" Height="21" FontFamily="Arial" FontSize="16" FontWeight="Bold" Margin="33,10,23,0"/>
+        <TextBlock HorizontalAlignment="Center" Margin="23,36,27,0" TextWrapping="Wrap" Text="Downloading The Programs Necessary For Your Box.  These include RavenDB, Notepad++, Firefox, Google Chrome" VerticalAlignment="Top" Height="41" FontFamily="Arial" FontSize="16" Width="475"/>
+        <Button Name="NextButton" Content="Next" HorizontalAlignment="Left" Height="33" Margin="411,253,0,0" VerticalAlignment="Top" Width="87" Click="SetupWindowsFeatures" IsEnabled="False"/>
+        <ProgressBar Name="ProgressBar" HorizontalAlignment="Left" Height="28" Margin="23,113,0,0" VerticalAlignment="Top" Width="475"/>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="23,146,0,0" TextWrapping="Wrap" Text="Initializing download..." VerticalAlignment="Top" Width="475" FontStyle="Italic" FontFamily="Arial"/>
+        <TextBlock Name="ErrorSection" HorizontalAlignment="Center" Height="65" Margin="23,183,27,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Foreground="Red" Width="475"/>
+    </Grid>
+</Page>

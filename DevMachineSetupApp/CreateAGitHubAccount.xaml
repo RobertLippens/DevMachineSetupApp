@@ -1,0 +1,20 @@
+﻿<Page x:Class="DevMachineSetupApp.CreateAGitHubAccount"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" d:DesignWidth="525
+      "
+	Title="CreateAGitHubAccount" Height="300">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Step 2: Create a GitHub Account" VerticalAlignment="Top" Height="21" FontFamily="Arial" FontSize="16" FontWeight="Bold" Margin="33,10,23,0"/>
+        <TextBlock HorizontalAlignment="Center" Margin="23,36,27,0" TextWrapping="Wrap" Text="Before we can begin, please create a GitHub account.  If you already have one, please enter your credentials below." VerticalAlignment="Top" Height="41" FontFamily="Arial" FontSize="16" Width="475"/>
+        <Button Content="Next" HorizontalAlignment="Left" Height="33" Margin="411,253,0,0" VerticalAlignment="Top" Width="87" Click="DownloadNewPrograms" Cursor="Hand"/>
+        <Button Content="Create A GitHub Account" HorizontalAlignment="Left" Height="33" Margin="23,253,0,0" VerticalAlignment="Top" Width="241" Click="OpenGitHubInBrowser" Cursor="Hand"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="23,131,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" Width="81" FontFamily="Arial" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="23,185,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Width="81" FontFamily="Arial" FontSize="16" RenderTransformOrigin="0.469,1.05"/>
+        <PasswordBox HorizontalAlignment="Left" Height="31" Margin="119,174,0,0" VerticalAlignment="Top" Width="379"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="119,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="379"/>
+    </Grid>
+</Page>

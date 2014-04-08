@@ -1,0 +1,11 @@
+﻿<Window x:Class="DevMachineSetupApp.StartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:resx="clr-namespace:DevMachineSetupApp.Properties"
+        Title="StartWindow" Height="350" Width="525" FontFamily="Arial" FontSize="16">
+    
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Welcome!  This application was designed to help streamline the setup of your local machine.  Simply follow the instructions and your box should be ready for use in no time!  Let's begin." VerticalAlignment="Top" Height="239" Width="497"/>
+        <Button Content="Next" HorizontalAlignment="Left" Height="33" Margin="420,277,0,0" VerticalAlignment="Top" Width="87" Click="ChooseADirectory" Cursor="Hand"/>
+    </Grid>
+</Window>
